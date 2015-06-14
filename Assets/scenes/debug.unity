@@ -168,6 +168,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11414636, guid: 9728cd2fe7c2e6e44bedd04db737bfdf, type: 2}
+      propertyPath: useJumpCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11414636, guid: 9728cd2fe7c2e6e44bedd04db737bfdf, type: 2}
+      propertyPath: jumpHeight
+      value: 520
+      objectReference: {fileID: 0}
+    - target: {fileID: 11414636, guid: 9728cd2fe7c2e6e44bedd04db737bfdf, type: 2}
+      propertyPath: jumpCooldown
+      value: 750
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9728cd2fe7c2e6e44bedd04db737bfdf, type: 2}
   m_IsPrefabParent: 0
