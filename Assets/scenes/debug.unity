@@ -160,7 +160,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1442211139}
   m_RootOrder: 1
---- !u!1 &295747466 stripped
+--- !u!1 &295747466
 GameObject:
   m_PrefabParentObject: {fileID: 173002, guid: 9728cd2fe7c2e6e44bedd04db737bfdf, type: 2}
   m_PrefabInternal: {fileID: 202847383}
@@ -181,11 +181,11 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &1442211138 stripped
+--- !u!1 &1442211138
 GameObject:
   m_PrefabParentObject: {fileID: 177576, guid: 9728cd2fe7c2e6e44bedd04db737bfdf, type: 2}
   m_PrefabInternal: {fileID: 202847383}
---- !u!4 &1442211139 stripped
+--- !u!4 &1442211139
 Transform:
   m_PrefabParentObject: {fileID: 464310, guid: 9728cd2fe7c2e6e44bedd04db737bfdf, type: 2}
   m_PrefabInternal: {fileID: 202847383}
@@ -394,7 +394,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
