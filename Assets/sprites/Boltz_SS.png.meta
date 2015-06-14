@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 4e19b754bdd7d3b42b4260037f8b9d1a
+timeCreated: 1434182210
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Boltz_SS_0
+    21300002: Boltz_SS_1
+    21300004: Boltz_SS_2
+    21300006: Boltz_SS_3
+    21300008: Boltz_SS_4
+    21300010: Boltz_SS_5
+    21300012: Boltz_SS_6
+    21300014: Boltz_SS_7
+    21300016: Boltz_SS_8
+    21300018: Boltz_SS_9
+    21300020: Boltz_SS_10
+    21300022: Boltz_SS_11
+    21300024: Boltz_SS_12
+    21300026: Boltz_SS_13
+    21300028: Boltz_SS_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1000
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Boltz_SS_0
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 3024
+        width: 366
+        height: 146
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_1
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2649
+        width: 516
+        height: 259
+      alignment: 9
+      pivot: {x: .27818808, y: .389522135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_2
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 2479
+        width: 196
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_3
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 2109
+        width: 410
+        height: 254
+      alignment: 9
+      pivot: {x: .216736287, y: .493373603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_4
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1940
+        width: 146
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1412
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1541
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1203
+        width: 265
+        height: 473
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1095
+        width: 669
+        height: 728
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_9
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1490
+        width: 411
+        height: 254
+      alignment: 9
+      pivot: {x: .213329896, y: .500000477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1242
+        width: 79
+        height: 183
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_11
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1191
+        width: 79
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_12
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1138
+        width: 78
+        height: 236
+      alignment: 9
+      pivot: {x: .5, y: .107737914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_13
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 166
+        width: 800
+        height: 815
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boltz_SS_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 103
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
