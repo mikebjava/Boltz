@@ -19,7 +19,7 @@ public class JumpHandler : MonoBehaviour
     #endregion
 
     private Rigidbody2D rb2d;
-    private float groundCheckRadius = 0.5f;
+    private float groundCheckRadius = 0.1f;
     private float lastJump = 0;
     private Stopwatch jumpTimer;
 

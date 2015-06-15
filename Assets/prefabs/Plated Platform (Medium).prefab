@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 417826}
   - 212: {fileID: 21277524}
-  - 68: {fileID: 6888646}
+  - 61: {fileID: 6170350}
   m_Layer: 8
   m_Name: Plated Platform (Medium)
   m_TagString: Untagged
@@ -29,8 +29,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!68 &6888646
-EdgeCollider2D:
+--- !u!61 &6170350
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -39,25 +39,9 @@ EdgeCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: -1.6934824, y: .53112644}
-  - {x: 1.70641494, y: .542786956}
-  - {x: 1.69355083, y: -.232650667}
-  - {x: 1.09859538, y: .116163999}
-  - {x: 1.09352016, y: .0342970639}
-  - {x: .438771456, y: .0367738754}
-  - {x: .430715024, y: -.260360986}
-  - {x: -.0899114609, y: -.24816975}
-  - {x: -.109190762, y: .0937355161}
-  - {x: -.425539523, y: .0983067378}
-  - {x: -.424835145, y: .0323377997}
-  - {x: -.744756699, y: .0300907567}
-  - {x: -.741592884, y: .236438751}
-  - {x: -1.08198905, y: .243905053}
-  - {x: -1.0838542, y: .13115254}
-  - {x: -1.70988858, y: -.226945221}
-  - {x: -1.70478642, y: .521725893}
+  m_Offset: {x: -.00496816635, y: .278217316}
+  serializedVersion: 2
+  m_Size: {x: 3.406394, y: .539565086}
 --- !u!212 &21277524
 SpriteRenderer:
   m_ObjectHideFlags: 1
