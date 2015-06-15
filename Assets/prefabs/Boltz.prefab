@@ -338,12 +338,12 @@ GameObject:
   m_Component:
   - 4: {fileID: 464310}
   - 50: {fileID: 5048060}
-  - 58: {fileID: 5839900}
   - 61: {fileID: 6128870}
   - 61: {fileID: 6133262}
   - 95: {fileID: 9551420}
   - 114: {fileID: 11436402}
   - 114: {fileID: 11414636}
+  - 61: {fileID: 6134202}
   m_Layer: 0
   m_Name: Boltz
   m_TagString: Untagged
@@ -766,19 +766,6 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!58 &5839900
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 177576}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -.50999999}
-  serializedVersion: 2
-  m_Radius: .174037933
 --- !u!61 &6128870
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -805,6 +792,19 @@ BoxCollider2D:
   m_Offset: {x: .00397512317, y: -.00198769569}
   serializedVersion: 2
   m_Size: {x: .793292344, y: .821118355}
+--- !u!61 &6134202
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177576}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: .0137375444, y: -.559312582}
+  serializedVersion: 2
+  m_Size: {x: .831224918, y: .273875237}
 --- !u!95 &9521676
 Animator:
   serializedVersion: 3
@@ -851,7 +851,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpKey: 32
-  jumpHeight: 240
+  jumpHeight: 520
+  jumpCooldown: 750
+  useJumpCooldown: 1
   isGrounded: 0
   groundCheck: {fileID: 103100}
   offsetX: 0
