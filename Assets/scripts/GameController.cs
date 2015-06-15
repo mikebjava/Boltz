@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class GameController : MonoBehaviour
 {
     private static GameController instance;
 
     #region Player Properties
-    public GameObject playerBallInstance;
-    public GameObject playerInstance;
+    public GameObject boltzInstance;
     #endregion
 
     void Awake()
@@ -22,19 +22,17 @@ public class GameController : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        
-        playerInstance = GameObject.FindGameObjectWithTag("Player");
-        playerBallInstance = playerInstance.transform.FindChild("Elemental Ball").gameObject;
+
+        boltzInstance = GameObject.FindGameObjectWithTag("Player");
+
+        if (boltzInstance == null)
+        {
+            Debug.LogWarning("Player instance not found! This may cause problems with the game.");
+        }
     }
 
     public static GameController Instance()
     {
         return instance;
     }
-
-    public void TriggerWin()
-    {
-        
-    }
-
 }
