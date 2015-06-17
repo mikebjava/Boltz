@@ -4,7 +4,7 @@ using System.Collections;
 public class JTimer : MonoBehaviour {
     public float timeLeft;
     public GameObject go;
-    public Text text;
+    //public Text text;
 	// Use this for initialization
 	void Start () {
         
@@ -14,6 +14,6 @@ public class JTimer : MonoBehaviour {
 	void Update () 
     {
         timeLeft -= Time.deltaTime;
-        text.text = "Time Left " + timeLeft;
+        //text.text = "Time Left " + timeLeft;
     }
 }
