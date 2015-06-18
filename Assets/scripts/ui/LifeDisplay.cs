@@ -17,7 +17,7 @@ public class LifeDisplay : MonoBehaviour
             Debug.LogWarning("Text display component for LifeDisplay was not found. This may cause problems.");
         }
 
-        pvc = GameController.Instance().boltzInstance.GetComponent<PlayerVitalsController>() as PlayerVitalsController;
+        pvc = GameController.Instance().Boltz.GetComponent<PlayerVitalsController>() as PlayerVitalsController;
         if (pvc == null)
         {
             Debug.LogWarning("LifeDisplay was unable to retrieve an instance of Boltz PlayerVitalsController. This may cause problems.");
@@ -28,7 +28,12 @@ public class LifeDisplay : MonoBehaviour
             display.text = "Life: " + pvc.CurrentLife;
         }
 
-
+        #region GameController Bindings
+        if (GameController.Instance() != null)
+        {
+            GameController.Instance().LifeDisplay = this;
+        }
+        #endregion
     }
 
     private void SyncLife(object sender, DamagedEventArgs e)

@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GuiButtonActions : MonoBehaviour {
-   public void startGame()
+public class StartGame : MonoBehaviour
+{
+    public void OnClick()
     {
         Application.LoadLevel("Debug");
     }

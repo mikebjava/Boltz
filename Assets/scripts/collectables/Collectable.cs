@@ -6,7 +6,6 @@ public class Collectable : MonoBehaviour
 {
 
     #region Editor Variables
-    public int Value = 100;
     public bool DestroyOnCollect = true;
     #endregion
 
@@ -25,10 +24,11 @@ public class Collectable : MonoBehaviour
     {
         if (coll.gameObject.tag == "Player")
         {
-            PlayerStatsController psc = GameController.Instance().boltzInstance.GetComponent<PlayerStatsController>() as PlayerStatsController;
-            psc.ModifyScore(Value);
             if (DestroyOnCollect)
                 Destroy(gameObject);
+            CollectableCollectedEventArgs args = new CollectableCollectedEventArgs();
+            args.Collector = coll.gameObject;
+            OnCollected(this, args);
         }
     }
 }

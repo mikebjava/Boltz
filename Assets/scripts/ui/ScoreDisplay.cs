@@ -10,7 +10,7 @@ public class ScoreDisplay : MonoBehaviour
 
     void Start()
     {
-        psc = GameController.Instance().boltzInstance.GetComponent<PlayerStatsController>() as PlayerStatsController;
+        psc = GameController.Instance().Boltz.GetComponent<PlayerStatsController>() as PlayerStatsController;
         if (psc == null)
         {
             Debug.LogWarning("ScoreDisplay was unable to retrieve an instance of Boltz PlayerStatsController. This may cause problems.");
@@ -25,6 +25,13 @@ public class ScoreDisplay : MonoBehaviour
         {
             Debug.LogWarning("Text display component for ScoreDisplay was not found. This may cause problems.");
         }
+
+        #region GameController Bindings
+        if (GameController.Instance() != null)
+        {
+            GameController.Instance().ScoreDisplay = this;
+        }
+        #endregion
     }
 
     private void SyncScoreOnChange(object sender, ScoreChangedEventArgs e)

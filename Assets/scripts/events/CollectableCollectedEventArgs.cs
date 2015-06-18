@@ -8,7 +8,6 @@ public class CollectableCollectedEventArgs : EventArgs
 {
 
     public GameObject Collector { get; set; }
-    public int Value { get; set; }
 
 }
 

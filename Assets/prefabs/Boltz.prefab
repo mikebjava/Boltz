@@ -344,9 +344,12 @@ GameObject:
   - 114: {fileID: 11436402}
   - 114: {fileID: 11414636}
   - 61: {fileID: 6134202}
+  - 114: {fileID: 11414602}
+  - 114: {fileID: 11483212}
+  - 114: {fileID: 11499918}
   m_Layer: 0
   m_Name: Boltz
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -839,6 +842,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11414602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2835cd5d90346cf4685d99c29bc7b9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentScore: 0
 --- !u!114 &11414636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -851,7 +866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpKey: 32
-  jumpHeight: 580
+  jumpHeight: 650
   jumpCooldown: 750
   useJumpCooldown: 1
   isGrounded: 0
@@ -874,6 +889,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 15
   axis: 0
+--- !u!114 &11483212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c517db9316c3740a321788443c6494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximumLife: 100
+  MinimumLife: 0
+  CurrentLife: 100
+--- !u!114 &11499918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab4b8828a9bf4d449bb1e177bf5b8aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21204932
 SpriteRenderer:
   m_ObjectHideFlags: 1
