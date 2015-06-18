@@ -369,6 +369,46 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 19990338, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d7e16e0e17059c4458bc37668cac2dcf, type: 2}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: InitialModule.startColor.maxColor.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: InitialModule.gravityModifier
+      value: -.100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: UVModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: RotationModule.curve.scalar
+      value: .785398126
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: RotationModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: RotationBySpeedModule.curve.scalar
+      value: .785398126
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: RotationBySpeedModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: CollisionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856486, guid: 7d740deb741729246bba479edded055f, type: 2}
+      propertyPath: SubModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d740deb741729246bba479edded055f, type: 2}
   m_IsPrefabParent: 0
