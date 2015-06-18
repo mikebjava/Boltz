@@ -27,6 +27,7 @@ public class GameController : MonoBehaviour
         }
         else
         {
+            instance.InitInstances();
             Destroy(gameObject);
             return;
         }
@@ -34,7 +35,7 @@ public class GameController : MonoBehaviour
         InitInstances();
     }
 
-    private void InitInstances()
+    public void InitInstances()
     {
         #region Player Properties
         Boltz = GameObject.FindGameObjectWithTag("Player");

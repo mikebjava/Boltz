@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: d60d0ef70918f024589ff9b1e80b72bc
+timeCreated: 1434665762
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Metal Plates_0
+    21300002: Metal Plates_1
+    21300004: Metal Plates_2
+    21300006: Metal Plates_3
+    21300008: Metal Plates_4
+    21300010: Metal Plates_5
+    21300012: Metal Plates_6
+    21300014: Metal Plates_7
+    21300016: Metal Plates_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Metal Plates_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 195
+        height: 299
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Plates_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 336
+        width: 125
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Plates_2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 334
+        width: 125
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Plates_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 339
+        width: 126
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Plates_4
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 335
+        width: 125
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Plates_5
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 332
+        width: 195
+        height: 298
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Plates_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 196
+        height: 298
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Plates_7
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 107
+        width: 126
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Plates_8
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 106
+        width: 125
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
