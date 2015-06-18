@@ -33,6 +33,7 @@ public class PlayerVitalsController : MonoBehaviour
         args.Damage = damage;
         args.DamagedObject = gameObject;
         args.DamagingObject = damageSource;
+        args.CurrentLife = CurrentLife;
         OnDamaged(this, args);
     }
 

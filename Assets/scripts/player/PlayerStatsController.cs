@@ -12,7 +12,6 @@ public class PlayerStatsController : MonoBehaviour
     public int CurrentScore = 0;
     #endregion
 
-
     #region Events
     public event EventHandler<ScoreChangedEventArgs> ScoreChanged;
     public virtual void OnScoreChangedEvent(object obj, ScoreChangedEventArgs args)
