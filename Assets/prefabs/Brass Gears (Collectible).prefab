@@ -159,6 +159,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollect: 1
+  PlaySoundOnCollect: 1
+  CollectionSound: {fileID: 8300000, guid: c069944fc5ab216419d22fccb3dd9b7c, type: 3}
+  UsePitchVariation: 1
+  PitchLowRange: .699999988
+  PitchHighRange: 1
   Value: 25
 --- !u!212 &21202154
 SpriteRenderer:
