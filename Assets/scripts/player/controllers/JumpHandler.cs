@@ -6,7 +6,7 @@ using System.Diagnostics;
 public class JumpHandler : MonoBehaviour
 {
 
-    #region Component Variables
+    #region Editor Variables
     public KeyCode jumpKey = KeyCode.Space;
     public float jumpHeight = 10f;
     public float jumpCooldown = 1000;
@@ -16,6 +16,7 @@ public class JumpHandler : MonoBehaviour
     public float offsetX = 0;
     public float offsetY = 0;
     public LayerMask defineGround;
+    public AudioClip JumpSound;
     #endregion
 
     private Rigidbody2D rb2d;
@@ -58,6 +59,9 @@ public class JumpHandler : MonoBehaviour
         {
             rb2d.AddForce(new Vector2(0, jumpHeight));
             isGrounded = false;
+
+            AudioSource source = GameController.Instance().Boltz.GetComponent<AudioSource>();
+            source.PlayOneShot(JumpSound, 1.0f);
         }
     }
 
