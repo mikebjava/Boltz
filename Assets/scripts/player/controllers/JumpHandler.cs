@@ -12,7 +12,7 @@ public class JumpHandler : MonoBehaviour
     public float jumpCooldown = 1000;
     public bool useJumpCooldown = true;
     public bool isGrounded = false;
-    public GameObject groundCheck;
+    public CircleCollider2D groundCheck;
     public float offsetX = 0;
     public float offsetY = 0;
     public LayerMask defineGround;
@@ -33,7 +33,7 @@ public class JumpHandler : MonoBehaviour
 
     void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapCircle(new Vector2(groundCheck.transform.position.x + offsetX, groundCheck.transform.position.y + offsetY), groundCheckRadius, defineGround);
+        isGrounded = Physics2D.OverlapCircle(new Vector2(groundCheck.transform.position.x + offsetX, groundCheck.transform.position.y + offsetY), groundCheck.radius, defineGround);
 
         if (Input.GetKey(jumpKey) && isGrounded)
         {
