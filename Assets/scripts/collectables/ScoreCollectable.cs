@@ -19,7 +19,7 @@ public class ScoreCollectable : Collectable
     private void AddScoreOnCollect(object sender, CollectableCollectedEventArgs e)
     {
         PlayerStatsController psc = e.Collector.GetComponent<PlayerStatsController>() as PlayerStatsController;
-        psc.ModifyScore(Value);
+        psc.ModifyScore(Value, true);
     }
 
 }

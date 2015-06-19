@@ -10,6 +10,7 @@ public class PlayerStatsController : MonoBehaviour
 
     #region Editor Variables
     public int CurrentScore = 0;
+    public int CollectableCount = 0;
     #endregion
 
     #region Events
@@ -23,8 +24,11 @@ public class PlayerStatsController : MonoBehaviour
     }
     #endregion
 
-    public void ModifyScore(int value)
+    public void ModifyScore(int value, bool collectable)
     {
+        if (collectable)
+            CollectableCount++;
+
         CurrentScore += value;
         ScoreChangedEventArgs args = new ScoreChangedEventArgs();
         args.PreviousScore = CurrentScore - value;

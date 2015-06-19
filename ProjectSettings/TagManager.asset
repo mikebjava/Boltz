@@ -6,6 +6,7 @@ TagManager:
   tags:
   - UI
   - Metallic
+  - Collectable
   layers:
   - Default
   - TransparentFX

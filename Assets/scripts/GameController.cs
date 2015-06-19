@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public GameObject Boltz;
     #endregion
     #region Game Mechanics
+    public GameFlowManager GameFlowManager;
     public GameObject UI;
     public GameObject OverlaySpace;
     public GameObject StatusDisplay;
@@ -89,6 +90,9 @@ public class GameController : MonoBehaviour
             }
             #endregion
         }
+        #endregion
+        #region Find and bind the GameFlowManager
+        GameFlowManager = GameObject.Find("GameFlowManager").GetComponent<GameFlowManager>();
         #endregion
         #endregion
     }
