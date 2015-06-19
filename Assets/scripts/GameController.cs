@@ -36,6 +36,11 @@ public class GameController : MonoBehaviour
         InitInstances();
     }
 
+    void Start()
+    {
+        Debug.Log(Camera.main.pixelWidth + "x" + Camera.main.pixelHeight);
+    }
+
     public void InitInstances()
     {
         #region Player Properties
