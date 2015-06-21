@@ -15,10 +15,10 @@ public class MetalCrate : MonoBehaviour
 
     void Start()
     {
-        source = GameController.Instance().Boltz.GetComponent<AudioSource>();
+        source = GetComponent<AudioSource>();
         if (source == null)
         {
-            Debug.LogWarning("MetalCrate was unable to find the player's AudioSource.");
+            Debug.LogWarning("MetalCrate was unable to find an AudioSource.");
         }
     }
 

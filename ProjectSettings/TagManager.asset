@@ -7,6 +7,8 @@ TagManager:
   - UI
   - Metallic
   - Collectable
+  - Rope
+  - Grippable
   layers:
   - Default
   - TransparentFX

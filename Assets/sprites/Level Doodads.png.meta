@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 08c6539e8d60da44d8b67021f1b39ffd
-timeCreated: 1434887932
+timeCreated: 1434904668
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -49,6 +49,8 @@ TextureImporter:
     21300084: Level Doodads_42
     21300086: Level Doodads_43
     21300088: Level Doodads_44
+    21300090: Level Doodads_45
+    21300092: Level Doodads_46
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -101,8 +103,8 @@ TextureImporter:
         y: 3057
         width: 1196
         height: 1196
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .153392121, y: .830102801}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_1
       rect:
@@ -112,7 +114,7 @@ TextureImporter:
         width: 371
         height: 1195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_2
       rect:
@@ -122,7 +124,7 @@ TextureImporter:
         width: 372
         height: 1195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_3
       rect:
@@ -132,7 +134,7 @@ TextureImporter:
         width: 375
         height: 1195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_4
       rect:
@@ -142,7 +144,7 @@ TextureImporter:
         width: 604
         height: 604
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_5
       rect:
@@ -152,7 +154,7 @@ TextureImporter:
         width: 873
         height: 1195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_6
       rect:
@@ -162,7 +164,7 @@ TextureImporter:
         width: 872
         height: 1196
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_7
       rect:
@@ -172,7 +174,7 @@ TextureImporter:
         width: 873
         height: 1196
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_8
       rect:
@@ -182,7 +184,7 @@ TextureImporter:
         width: 604
         height: 603
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_9
       rect:
@@ -192,7 +194,7 @@ TextureImporter:
         width: 459
         height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_10
       rect:
@@ -202,7 +204,7 @@ TextureImporter:
         width: 170
         height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_11
       rect:
@@ -212,7 +214,7 @@ TextureImporter:
         width: 757
         height: 471
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_12
       rect:
@@ -222,7 +224,7 @@ TextureImporter:
         width: 604
         height: 374
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_13
       rect:
@@ -232,7 +234,7 @@ TextureImporter:
         width: 604
         height: 374
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_14
       rect:
@@ -241,8 +243,8 @@ TextureImporter:
         y: 1588
         width: 1196
         height: 1195
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .153392121, y: .830379248}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_15
       rect:
@@ -252,7 +254,7 @@ TextureImporter:
         width: 369
         height: 1796
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_16
       rect:
@@ -262,7 +264,7 @@ TextureImporter:
         width: 368
         height: 1796
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_17
       rect:
@@ -272,7 +274,7 @@ TextureImporter:
         width: 368
         height: 1796
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_18
       rect:
@@ -282,7 +284,7 @@ TextureImporter:
         width: 604
         height: 604
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_19
       rect:
@@ -292,7 +294,7 @@ TextureImporter:
         width: 459
         height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_20
       rect:
@@ -302,7 +304,7 @@ TextureImporter:
         width: 459
         height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_21
       rect:
@@ -312,7 +314,7 @@ TextureImporter:
         width: 490
         height: 491
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_22
       rect:
@@ -322,7 +324,7 @@ TextureImporter:
         width: 170
         height: 271
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_23
       rect:
@@ -332,7 +334,7 @@ TextureImporter:
         width: 757
         height: 469
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_24
       rect:
@@ -342,7 +344,7 @@ TextureImporter:
         width: 604
         height: 374
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_25
       rect:
@@ -352,7 +354,7 @@ TextureImporter:
         width: 604
         height: 374
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_26
       rect:
@@ -362,7 +364,7 @@ TextureImporter:
         width: 451
         height: 452
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_27
       rect:
@@ -432,7 +434,7 @@ TextureImporter:
         width: 170
         height: 271
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_34
       rect:
@@ -452,7 +454,7 @@ TextureImporter:
         width: 604
         height: 375
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_36
       rect:
@@ -461,8 +463,8 @@ TextureImporter:
         y: 118
         width: 1196
         height: 1195
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .153392121, y: .835885286}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_37
       rect:
@@ -472,7 +474,7 @@ TextureImporter:
         width: 549
         height: 213
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_38
       rect:
@@ -492,7 +494,7 @@ TextureImporter:
         width: 549
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_40
       rect:
@@ -502,7 +504,7 @@ TextureImporter:
         width: 549
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_41
       rect:
@@ -512,7 +514,7 @@ TextureImporter:
         width: 374
         height: 604
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_42
       rect:
@@ -522,7 +524,7 @@ TextureImporter:
         width: 375
         height: 604
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_43
       rect:
@@ -532,17 +534,37 @@ TextureImporter:
         width: 375
         height: 604
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Level Doodads_44
       rect:
         serializedVersion: 2
         x: 2833
         y: 64
-        width: 1349
+        width: 450
         height: 450
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_45
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 59
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_46
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 57
+        width: 450
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

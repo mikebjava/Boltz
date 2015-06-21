@@ -351,6 +351,8 @@ GameObject:
   - 114: {fileID: 11483212}
   - 114: {fileID: 11499918}
   - 82: {fileID: 8286142}
+  - 233: {fileID: 23365252}
+  - 114: {fileID: 11443564}
   m_Layer: 0
   m_Name: Boltz
   m_TagString: Player
@@ -659,7 +661,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.78999996, y: 2.25, z: 0}
+  m_LocalPosition: {x: -.0399999991, y: 6.61999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 461508}
@@ -990,6 +992,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 15
   axis: 0
+--- !u!114 &11443564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f6381d10822eea4b9808a0e878b1bb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsClimbing: 0
+  ClimbCooldown: 250
 --- !u!114 &11468152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1443,6 +1458,25 @@ SpriteRenderer:
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300002, guid: 4e19b754bdd7d3b42b4260037f8b9d1a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!233 &23365252
+HingeJoint2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177576}
+  m_Enabled: 1
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_Anchor: {x: .536005259, y: .0564217567}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 359
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -19,6 +19,8 @@ public class JumpHandler : MonoBehaviour
     public AudioClip JumpSound;
     #endregion
 
+    private ClimbingController climbingController;
+    private Animator animator;
     private Rigidbody2D rb2d;
     private float groundCheckRadius = 0.1f;
     private float lastJump = 0;
@@ -26,6 +28,8 @@ public class JumpHandler : MonoBehaviour
 
     void Start()
     {
+        climbingController = GameController.Instance().Boltz.GetComponent<ClimbingController>() as ClimbingController;
+        animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         jumpTimer = new Stopwatch();
         jumpTimer.Start();
@@ -34,8 +38,9 @@ public class JumpHandler : MonoBehaviour
     void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(new Vector2(groundCheck.transform.position.x + offsetX, groundCheck.transform.position.y + offsetY), groundCheck.radius, defineGround);
+        animator.SetBool("isGrounded", isGrounded);
 
-        if (Input.GetKey(jumpKey) && isGrounded)
+        if (Input.GetKey(jumpKey) && (isGrounded || climbingController.IsClimbing))
         {
             if (useJumpCooldown)
             {
@@ -62,6 +67,8 @@ public class JumpHandler : MonoBehaviour
 
             AudioSource source = GameController.Instance().Boltz.GetComponent<AudioSource>();
             source.PlayOneShot(JumpSound, 1.0f);
+
+            climbingController.Detach();
         }
     }
 

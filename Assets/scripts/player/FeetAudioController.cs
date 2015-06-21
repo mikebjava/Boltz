@@ -22,8 +22,11 @@ public class FeetAudioController : MonoBehaviour
     {
         if (source != null)
         {
-            source.pitch = 1.0f;
-            source.PlayOneShot(JumpLandSound, 1.0f);
+            if (coll.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            {
+                source.pitch = 1.0f;
+                source.PlayOneShot(JumpLandSound, 1.0f);
+            }
         }
     }
 }
