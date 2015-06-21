@@ -438,7 +438,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 168128, guid: b1a71fd881dac4641966ed1e6f790716, type: 2}
-  timePerShot: 100
 --- !u!23 &404984794
 MeshRenderer:
   m_ObjectHideFlags: 0
