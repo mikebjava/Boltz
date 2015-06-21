@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: be9cfd8535b906544bb4623dde031025
-timeCreated: 1434887873
+guid: 66b21cba6d61d8d4bbb8438a57d27421
+timeCreated: 1434888003
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Metal Crates_0
-    21300002: Metal Crates_1
-    21300004: Metal Crates_2
-    21300006: Metal Crates_3
-    21300008: Metal Crates_4
+    21300000: Prototype Turret_0
+    21300002: Prototype Turret_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,61 +45,31 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Metal Crates_0
+    - name: Prototype Turret_0
       rect:
         serializedVersion: 2
-        x: 217
-        y: 369
-        width: 258
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 283
+        height: 596
+      alignment: 9
+      pivot: {x: .220079735, y: .326762289}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Metal Crates_1
+    - name: Prototype Turret_1
       rect:
         serializedVersion: 2
-        x: 549
-        y: 369
-        width: 258
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Metal Crates_2
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 22
-        width: 257
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Metal Crates_3
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 22
-        width: 258
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Metal Crates_4
-      rect:
-        serializedVersion: 2
-        x: 745
-        y: 22
-        width: 257
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 332
+        y: 0
+        width: 296
+        height: 596
+      alignment: 9
+      pivot: {x: .256429821, y: .335722864}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 229ffd26037b8cb4db64266ef940b962
+timeCreated: 1434887804
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Metal Gears (Collectable)_0
+    21300002: Metal Gears (Collectable)_1
+    21300004: Metal Gears (Collectable)_2
+    21300006: Metal Gears (Collectable)_3
+    21300008: Metal Gears (Collectable)_4
+    21300010: Metal Gears (Collectable)_5
+    21300012: Metal Gears (Collectable)_6
+    21300014: Metal Gears (Collectable)_7
+    21300016: Metal Gears (Collectable)_8
+    21300018: Metal Gears (Collectable)_9
+    21300020: Metal Gears (Collectable)_10
+    21300022: Metal Gears (Collectable)_11
+    21300024: Metal Gears (Collectable)_12
+    21300026: Metal Gears (Collectable)_13
+    21300028: Metal Gears (Collectable)_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Metal Gears (Collectable)_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 613
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_1
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 613
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 613
+        width: 190
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_3
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 613
+        width: 190
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_4
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 613
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 414
+        width: 179
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_6
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 414
+        width: 179
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 414
+        width: 178
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_8
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 414
+        width: 179
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_9
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 414
+        width: 179
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 66
+        width: 325
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 66
+        width: 325
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_12
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 66
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_13
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 66
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Metal Gears (Collectable)_14
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 66
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

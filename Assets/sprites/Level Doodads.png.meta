@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 08c6539e8d60da44d8b67021f1b39ffd
+timeCreated: 1434887932
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Level Doodads_0
+    21300002: Level Doodads_1
+    21300004: Level Doodads_2
+    21300006: Level Doodads_3
+    21300008: Level Doodads_4
+    21300010: Level Doodads_5
+    21300012: Level Doodads_6
+    21300014: Level Doodads_7
+    21300016: Level Doodads_8
+    21300018: Level Doodads_9
+    21300020: Level Doodads_10
+    21300022: Level Doodads_11
+    21300024: Level Doodads_12
+    21300026: Level Doodads_13
+    21300028: Level Doodads_14
+    21300030: Level Doodads_15
+    21300032: Level Doodads_16
+    21300034: Level Doodads_17
+    21300036: Level Doodads_18
+    21300038: Level Doodads_19
+    21300040: Level Doodads_20
+    21300042: Level Doodads_21
+    21300044: Level Doodads_22
+    21300046: Level Doodads_23
+    21300048: Level Doodads_24
+    21300050: Level Doodads_25
+    21300052: Level Doodads_26
+    21300054: Level Doodads_27
+    21300056: Level Doodads_28
+    21300058: Level Doodads_29
+    21300060: Level Doodads_30
+    21300062: Level Doodads_31
+    21300064: Level Doodads_32
+    21300066: Level Doodads_33
+    21300068: Level Doodads_34
+    21300070: Level Doodads_35
+    21300072: Level Doodads_36
+    21300074: Level Doodads_37
+    21300076: Level Doodads_38
+    21300078: Level Doodads_39
+    21300080: Level Doodads_40
+    21300082: Level Doodads_41
+    21300084: Level Doodads_42
+    21300086: Level Doodads_43
+    21300088: Level Doodads_44
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Level Doodads_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 3057
+        width: 1196
+        height: 1196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_1
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 3061
+        width: 371
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_2
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 3061
+        width: 372
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_3
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 3061
+        width: 375
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_4
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 3649
+        width: 604
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_5
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 3067
+        width: 873
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_6
+      rect:
+        serializedVersion: 2
+        x: 4693
+        y: 3099
+        width: 872
+        height: 1196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_7
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 3099
+        width: 873
+        height: 1196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_8
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 2890
+        width: 604
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_9
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 2857
+        width: 459
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_10
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 2637
+        width: 170
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_11
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 2541
+        width: 757
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_12
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 2583
+        width: 604
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_13
+      rect:
+        serializedVersion: 2
+        x: 5847
+        y: 2583
+        width: 604
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1588
+        width: 1196
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_15
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 932
+        width: 369
+        height: 1796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_16
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 932
+        width: 368
+        height: 1796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_17
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 932
+        width: 368
+        height: 1796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_18
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 2140
+        width: 604
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_19
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 2676
+        width: 459
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_20
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 2495
+        width: 459
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_21
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 1970
+        width: 490
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_22
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 2046
+        width: 170
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_23
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 1946
+        width: 757
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_24
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 1995
+        width: 604
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_25
+      rect:
+        serializedVersion: 2
+        x: 5847
+        y: 1995
+        width: 604
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_26
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 1560
+        width: 451
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_27
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 1798
+        width: 136
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_28
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 1730
+        width: 391
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_29
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 1349
+        width: 757
+        height: 471
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_30
+      rect:
+        serializedVersion: 2
+        x: 3384
+        y: 1697
+        width: 114
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_31
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 1701
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_32
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 1507
+        width: 391
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_33
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 1449
+        width: 170
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_34
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 1397
+        width: 604
+        height: 375
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_35
+      rect:
+        serializedVersion: 2
+        x: 5847
+        y: 1397
+        width: 604
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 118
+        width: 1196
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_37
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 1297
+        width: 549
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_38
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1132
+        width: 578
+        height: 323
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_39
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 1045
+        width: 549
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_40
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 790
+        width: 549
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_41
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 53
+        width: 374
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_42
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 53
+        width: 375
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_43
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 53
+        width: 375
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level Doodads_44
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 64
+        width: 1349
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
