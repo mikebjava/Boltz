@@ -1,28 +1,52 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Timers;
+using System.Diagnostics;
 public class Turret : MonoBehaviour
 {
+    public enum Direction
+    {
+        Left,
+        Right
+    };
+    public float speed;
+    public Direction dir;
+    public int secondsPerShot;
     public GameObject bullet;
-
-    // Use this for initialization
+    private Stopwatch time;
+        // Use this for initialization
     void Start()
     {
-
-
+        time = new Stopwatch();
+        time.Start();
+        secondsPerShot += secondsPerShot * 1000;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        shoot();
+        if (time.ElapsedMilliseconds >= secondsPerShot)
+        {
+            shoot();
+            time.Reset();
+            time.Start();
+        }
     }
 
     private BulletLogic shoot()
     {
-        GameObject newObject = Instantiate(bullet) as GameObject;
+        Vector3 pos = gameObject.transform.position;
+        Quaternion q = gameObject.transform.rotation;
+        GameObject newObject = Instantiate(bullet, pos, q) as GameObject;
         BulletLogic bl = newObject.GetComponent<BulletLogic>() as BulletLogic;
-        bl.speed = 250;
+        if (dir == Direction.Right)
+        {
+            bl.speed = speed;
+        }
+        if (dir == Direction.Left)
+        {
+            bl.speed = -speed;
+        } 
         return bl;
     }
 }

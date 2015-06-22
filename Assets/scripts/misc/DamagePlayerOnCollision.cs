@@ -3,6 +3,7 @@ using System.Collections;
 
 public class DamagePlayerOnCollision : MonoBehaviour {
     public int damage;
+    public bool useTrigger;
     PlayerVitalsController pvc;
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,15 @@ public class DamagePlayerOnCollision : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        if(coll.gameObject.tag == "Player")
+        if(coll.gameObject.tag == "Player" && !useTrigger)
+        {
+            pvc.Damage(damage, this.gameObject);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.tag == "Player" && !useTrigger)
         {
             pvc.Damage(damage, this.gameObject);
         }
