@@ -4,13 +4,16 @@ using System.Collections;
 
 public class GameController : MonoBehaviour
 {
+    #region Editor Variables
+    public string NextLevel;
+    #endregion
+
     private static GameController instance;
 
     #region Player Properties
     public GameObject Boltz;
     #endregion
     #region Game Mechanics
-    public GameFlowManager GameFlowManager;
     public GameObject UI;
     public GameObject OverlaySpace;
     public GameObject StatusDisplay;
@@ -36,11 +39,6 @@ public class GameController : MonoBehaviour
         InitInstances();
     }
 
-    void Start()
-    {
-        Debug.Log(Camera.main.pixelWidth + "x" + Camera.main.pixelHeight);
-    }
-
     public void InitInstances()
     {
         #region Player Properties
@@ -49,6 +47,8 @@ public class GameController : MonoBehaviour
         {
             Debug.LogWarning("Player instance not found! This may cause problems with the game.");
         }
+
+
         #endregion
         #region Game Mechanics
         #region Find and bind the UI
@@ -96,14 +96,16 @@ public class GameController : MonoBehaviour
             #endregion
         }
         #endregion
-        #region Find and bind the GameFlowManager
-        GameFlowManager = GameObject.Find("GameFlowManager").GetComponent<GameFlowManager>();
-        #endregion
         #endregion
     }
 
     public static GameController Instance()
     {
         return instance;
+    }
+
+    public void TriggerWin()
+    {
+        Application.LoadLevel(NextLevel);
     }
 }
