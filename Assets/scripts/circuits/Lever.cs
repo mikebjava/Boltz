@@ -6,7 +6,7 @@ public class Lever : MonoBehaviour
 
     public GameObject attachedGameObject;
     private ConnectedComponent connectedComp;
-    private int powerState;
+    private int powerState = 0;
 
     void Start()
     {
@@ -24,22 +24,26 @@ public class Lever : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D coll)
+    void OnTriggerStay2D(Collider2D coll)
     {
-        if (coll.gameObject.tag == "Player" && Input.GetKey(KeyCode.E))
+        if (coll.gameObject.tag == "Player")
+          
         {
-            switch (powerState)
+            if (Input.GetKey(KeyCode.E))
             {
-                case 0:
-                    powerState = 1;
-                    connectedComp.updateComponent(true);
-                    break;
-                case 1:
-                    powerState = 0;
-                    connectedComp.updateComponent(false);
-                    break;
-                default:
-                    break;
+                switch (powerState)
+                {
+                    case 0:
+                        powerState = 1;
+                        connectedComp.updateComponent(true);
+                        break;
+                   case 1:
+                       powerState = 0;
+                        connectedComp.updateComponent(false);
+                     break;
+                  default:
+                       break;
+                }
             }
         }
     }
