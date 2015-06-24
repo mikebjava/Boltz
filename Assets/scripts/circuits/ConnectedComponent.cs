@@ -1,17 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class ConnectedComponent : MonoBehaviour {
-    private bool isPowered;
+public abstract class ConnectedComponent : MonoBehaviour
+{
 
-	void Start () 
-    {
-	
-	}
+    private bool isPowered;
 
     public void updateComponent(bool isPowered)
     {
-        switch(isPowered)
+        switch (isPowered)
         {
             case true:
                 powerOn();

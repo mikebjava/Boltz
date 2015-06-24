@@ -1,36 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Lever : MonoBehaviour {
+public class Lever : MonoBehaviour
+{
+
     public GameObject attachedGameObject;
     private ConnectedComponent connectedComp;
-    private int powerState; //0 is off 1 is on
-	// Use this for initialization
-	void Start () {
-        if(attachedGameObject != null)
+    private int powerState;
+
+    void Start()
+    {
+        if (attachedGameObject != null)
         {
             connectedComp = attachedGameObject.GetComponent<ConnectedComponent>() as ConnectedComponent;
             if (connectedComp == null)
             {
                 Debug.LogWarning("Component Script Not Found");
             }
-        } else
+        }
+        else
         {
             Debug.LogWarning("No Attached GameObject To Switch");
         }
-        
-      
-       
-	}
-	
-	// Update is called once per frame
-	void Update () 
-    {
-            //TODO\\
-        /*Check power state
-         * Change Animation based on power state
-         */
-	}
+    }
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
