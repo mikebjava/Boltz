@@ -3,29 +3,25 @@ using System.Collections;
 
 public class DoorComponent : ConnectedComponent
 {
-    private BoxCollider2D box;
+
+    private Animator animator;
 
     void Start()
     {
-        box = gameObject.GetComponent<BoxCollider2D>() as BoxCollider2D;
-        if (box == null)
+        animator = GetComponent<Animator>();
+        if (animator == null)
         {
-            Debug.LogWarning("Rigidbody not found");
+            Debug.LogWarning("A door was unable to find it's animator. This may cause problems.");
         }
-    }
-
-    void Update()
-    {
-
     }
 
     public override void powerOn()
     {
-        box.enabled = false;
+        animator.SetBool("isOpen", true);
     }
 
     public override void powerOff()
     {
-        box.enabled = true;
+        animator.SetBool("isOpen", false);
     }
 }

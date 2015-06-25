@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 8629baac3c321d34c91fc99739e3cec4
+timeCreated: 1435265463
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Door Bottom (Bronze)
+    21300002: Door Bottom (Silver)
+    21300004: Door Bottom (Tungsten)
+    21300006: Door Bottom (Cobalt)
+    21300008: Door Bottom (Red)
+    21300010: Door Bottom (Green)
+    21300012: Exit Door (Bronze)
+    21300014: Door Top (Bronze)
+    21300016: Door Top (Silver)
+    21300018: Door Top (Tungsten)
+    21300020: Door Top (Cobalt)
+    21300022: Door Top (Red)
+    21300024: Door Top (Green)
+    21300026: Door (Red)
+    21300028: Door (Brass)
+    21300030: Door (Bronze)
+    21300032: Door (Tungsten)
+    21300034: Door (Green)
+    21300036: Door (Silver)
+    21300038: Exit Door Light (Bronze) [ON]
+    21300040: Exit Door Light (Tungsten) [ON]
+    21300042: Exit Door Light (Brass) [ON]
+    21300044: Exit Door Light (Bronze) [OFF]
+    21300046: Exit Door Light (Tungsten) [OFF]
+    21300048: Exit Door Light (Brass) [OFF]
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Door Bottom (Bronze)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 649
+        width: 126
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Bottom (Silver)
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 649
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Bottom (Tungsten)
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 649
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Bottom (Cobalt)
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 649
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Bottom (Red)
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 649
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Bottom (Green)
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 649
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit Door (Bronze)
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 52
+        width: 400
+        height: 610
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Top (Bronze)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 126
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Top (Silver)
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 570
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Top (Tungsten)
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 570
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Top (Cobalt)
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 570
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Top (Red)
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 570
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door Top (Green)
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 570
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door (Red)
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 40
+        width: 87
+        height: 508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door (Brass)
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 40
+        width: 87
+        height: 508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door (Bronze)
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 40
+        width: 88
+        height: 508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door (Tungsten)
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 40
+        width: 88
+        height: 508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door (Green)
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 40
+        width: 88
+        height: 508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Door (Silver)
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 40
+        width: 88
+        height: 508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit Door Light (Bronze) [ON]
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 310
+        width: 238
+        height: 239
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit Door Light (Tungsten) [ON]
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 310
+        width: 239
+        height: 239
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit Door Light (Brass) [ON]
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 310
+        width: 238
+        height: 239
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit Door Light (Bronze) [OFF]
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 51
+        width: 238
+        height: 240
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit Door Light (Tungsten) [OFF]
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 51
+        width: 236
+        height: 240
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit Door Light (Brass) [OFF]
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 51
+        width: 238
+        height: 240
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
