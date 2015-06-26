@@ -39,9 +39,16 @@ public class BulletLogic : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D coll)
     {
-        Vector2 vel = new Vector2(0,0);
-        rigidbody.velocity = vel;
-        deadBullet = true;
-        timer.Start();
+        if (rigidbody != null)
+        {
+            Vector2 vel = new Vector2(0, 0);
+            rigidbody.velocity = vel;
+            deadBullet = true;
+            timer.Start();
+        }
+        else
+        {
+            GameObject.Destroy(this.gameObject);
+        }
     }
 }

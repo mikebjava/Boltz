@@ -34,6 +34,15 @@ public class PlayerVitalsController : MonoBehaviour
             Death(obj, args);
         }
     }
+
+    public event EventHandler<HealedEventArgs> Healed;
+    public virtual void OnHealed(object obj, HealedEventArgs args)
+    {
+        if(Healed != null)
+        {
+            Healed(obj, args);
+        }
+    }
     #endregion
 
     public void Damage(float damage, GameObject damageSource)
@@ -62,6 +71,11 @@ public class PlayerVitalsController : MonoBehaviour
             OnDeath(this, args);
             IsDead = true;
         }
+    }
+
+    public void addLife(int value, GameObject healer)
+    {
+        CurrentLife += value;
     }
 
 
