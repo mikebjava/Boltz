@@ -8,11 +8,23 @@ using System.Diagnostics;
 public class Cooldown
 {
 
+    public int CooldownTime
+    {
+        get
+        {
+            return cooldownMS;
+        }
+        set
+        {
+            this.cooldownMS = value;
+        }
+    }
+
     private Stopwatch timer;
-    private float cooldownMS;
+    private int cooldownMS;
     private float lastTime;
 
-    public Cooldown(float cooldown)
+    public Cooldown(int cooldown)
     {
         this.cooldownMS = cooldown;
         timer = new Stopwatch();

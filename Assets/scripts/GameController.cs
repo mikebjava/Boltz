@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System;
 
 public class GameController : MonoBehaviour
 {
@@ -20,6 +20,26 @@ public class GameController : MonoBehaviour
     public TimerDisplay TimerDisplay;
     public LifeDisplay LifeDisplay;
     public ScoreDisplay ScoreDisplay;
+    #endregion
+
+    #region Events
+    public event EventHandler PreWin;
+    public virtual void OnPreWin(object obj, EventArgs args)
+    {
+        if (PreWin != null)
+        {
+            PreWin(obj, args);
+        }
+    }
+
+    public event EventHandler PostWin;
+    public virtual void OnPostWin(object obj, EventArgs args)
+    {
+        if (PostWin != null)
+        {
+            PostWin(obj, args);
+        }
+    }
     #endregion
 
     void Awake()
@@ -106,6 +126,8 @@ public class GameController : MonoBehaviour
 
     public void TriggerWin()
     {
+        PreWin(this, new EventArgs());
         Application.LoadLevel(NextLevel);
+        PostWin(this, new EventArgs());
     }
 }

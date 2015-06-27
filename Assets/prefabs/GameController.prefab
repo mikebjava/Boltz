@@ -39,6 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631232d7c53e55841844cbbcbcc0a1b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextLevel: 
   Boltz: {fileID: 0}
   UI: {fileID: 0}
   OverlaySpace: {fileID: 0}

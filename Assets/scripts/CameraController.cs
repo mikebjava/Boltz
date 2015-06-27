@@ -11,6 +11,7 @@ public class CameraController : MonoBehaviour
     #endregion
 
     private BloomOptimized bloom;
+    private ScreenOverlay overlay;
 
     void Awake()
     {
@@ -19,11 +20,20 @@ public class CameraController : MonoBehaviour
         {
             bloom.intensity = 16.0f;
         }
+
+        overlay = GetComponent<ScreenOverlay>() as ScreenOverlay;
+        if (bloom != null)
+        {
+            overlay.intensity = 0.0f;
+        }
     }
 
     void Update()
     {
         if (bloom != null)
             bloom.intensity = Mathf.Lerp((float)bloom.intensity, MinimumBloomIntensity, BloomLerpSpeed);
+
+        if (overlay != null)
+            overlay.intensity = Mathf.Lerp(overlay.intensity, 0.0f, 0.1f);
     }
 }

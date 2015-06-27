@@ -7,16 +7,14 @@ public class LifeCollectable : Collectable
     public int value;
     #endregion
 
-    // Use this for initialization
-	void Start () {
+    void Start()
+    {
         Collected += addLifeOnCollect;
-	}
+    }
 
     private void addLifeOnCollect(object sender, CollectableCollectedEventArgs args)
     {
         PlayerVitalsController pvc = GameController.Instance().Boltz.GetComponent<PlayerVitalsController>() as PlayerVitalsController;
-        pvc.addLife(value, this.gameObject);
+        pvc.Mend(value, this.gameObject);
     }
-	
-
 }

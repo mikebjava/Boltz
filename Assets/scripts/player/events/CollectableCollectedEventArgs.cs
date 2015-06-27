@@ -6,8 +6,6 @@ using UnityEngine;
 
 public class CollectableCollectedEventArgs : EventArgs
 {
-
     public GameObject Collector { get; set; }
-
 }
 

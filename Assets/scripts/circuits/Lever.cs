@@ -6,14 +6,23 @@ public class Lever : MonoBehaviour
     #region Editor Variables
     public GameObject attachedGameObject;
     public bool isActive = false;
+    public AudioClip LeverOnSound;
+    public AudioClip LeverOffSound;
     #endregion
 
     private ConnectedComponent connectedComp;
     private Animator animator;
     private Cooldown cd;
+    private AudioSource source;
 
     void Start()
     {
+        source = GetComponent<AudioSource>();
+        if (source == null)
+        {
+            Debug.LogWarning("Lever was unable to find an AudioSource.");
+        }
+
         animator = GetComponent<Animator>();
         if (animator == null)
         {
@@ -58,6 +67,7 @@ public class Lever : MonoBehaviour
                 connectedComp.updateComponent(isActive);
             }
             animator.SetBool("isOn", isActive);
+            source.PlayOneShot(LeverOnSound);
         }
         else
         {
@@ -67,6 +77,7 @@ public class Lever : MonoBehaviour
                 connectedComp.updateComponent(isActive);
             }
             animator.SetBool("isOn", isActive);
+            source.PlayOneShot(LeverOffSound);
         }
     }
 

@@ -5,16 +5,16 @@ using System.Diagnostics;
 public class BulletLogic : MonoBehaviour
 {
     public float speed;
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D rb;
     private int cleanUpTime = 5000; //clean up time(in milliseconds)
     private bool deadBullet;
     private Stopwatch timer;
     // Use this for initialization
     void Start()
     {
-        rigidbody = gameObject.GetComponent<Rigidbody2D>() as Rigidbody2D;
+        rb = gameObject.GetComponent<Rigidbody2D>() as Rigidbody2D;
         timer = new Stopwatch();
-        if (rigidbody == null)
+        if (rb == null)
         {
             UnityEngine.Debug.LogWarning("Rigidbody for bullet not found");
         }
@@ -25,7 +25,7 @@ public class BulletLogic : MonoBehaviour
         if (!deadBullet)
         {
             Vector2 spd = new Vector2(speed, 0);
-            rigidbody.AddForce(spd);
+            rb.AddForce(spd);
         }
     }
 
@@ -39,10 +39,10 @@ public class BulletLogic : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D coll)
     {
-        if (rigidbody != null)
+        if (rb != null)
         {
             Vector2 vel = new Vector2(0, 0);
-            rigidbody.velocity = vel;
+            rb.velocity = vel;
             deadBullet = true;
             timer.Start();
         }

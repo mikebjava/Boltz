@@ -22,7 +22,7 @@ public class WASDMovement : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        
+
     }
 
     void FixedUpdate()
@@ -34,16 +34,11 @@ public class WASDMovement : MonoBehaviour
 
             if (x != 0)
             {
+                bool prev = isFacingRight;
                 isFacingRight = (x > 0);
-            }
 
-            if (isFacingRight)
-            {
-                transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, 0, transform.rotation.z));
-            }
-            else
-            {
-                transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, 180f, transform.rotation.z));
+                if (isFacingRight != prev)
+                    Flip();
             }
 
             if (axis == TargetAxis.HORIZONTAL)
@@ -65,5 +60,12 @@ public class WASDMovement : MonoBehaviour
 
 
         }
+    }
+
+    private void Flip()
+    {
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }
