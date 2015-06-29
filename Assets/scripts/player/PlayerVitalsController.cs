@@ -97,6 +97,7 @@ public class PlayerVitalsController : MonoBehaviour
             args.Victim = this.gameObject;
             OnDeath(this, args);
             IsDead = true;
+            Destroy(gameObject);
         }
     }
 

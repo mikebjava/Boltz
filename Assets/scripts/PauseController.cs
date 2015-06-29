@@ -7,6 +7,7 @@ public class PauseController : MonoBehaviour
     #region Editor Variables
     public KeyCode PauseKey = KeyCode.Escape;
     public AudioClip PauseSound;
+    public bool PausingEnabled = true;
     #endregion
 
     #region Events
@@ -55,23 +56,26 @@ public class PauseController : MonoBehaviour
 
     public void TogglePause()
     {
-        if (pauseCD.Available())
+        if (PausingEnabled)
         {
-            if (pauseSwitch)
+            if (pauseCD.Available())
             {
-                pauseSwitch = false;
-                Time.timeScale = 1;
-                OnUnpause(this, new EventArgs());
-                source.pitch = 0.9f;
-                source.PlayOneShot(PauseSound);
-            }
-            else
-            {
-                pauseSwitch = true;
-                Time.timeScale = 0;
-                OnPause(this, new EventArgs());
-                source.pitch = 1.0f;
-                source.PlayOneShot(PauseSound);
+                if (pauseSwitch)
+                {
+                    pauseSwitch = false;
+                    Time.timeScale = 1;
+                    OnUnpause(this, new EventArgs());
+                    source.pitch = 0.9f;
+                    source.PlayOneShot(PauseSound);
+                }
+                else
+                {
+                    pauseSwitch = true;
+                    Time.timeScale = 0;
+                    OnPause(this, new EventArgs());
+                    source.pitch = 1.0f;
+                    source.PlayOneShot(PauseSound);
+                }
             }
         }
     }

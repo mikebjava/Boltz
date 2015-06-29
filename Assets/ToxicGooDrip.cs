@@ -13,10 +13,13 @@ public class ToxicGooDrip : MonoBehaviour
 
     void Start()
     {
-        pvc = GameController.Instance().Boltz.GetComponent<PlayerVitalsController>() as PlayerVitalsController;
-        if (pvc == null)
+        if (GameController.IsValidGame())
         {
-            Debug.LogWarning("ToxicGooDrip droplet was unable to locate the PlayerVitalsController. This may cause problems.");
+            pvc = GameController.Instance().Boltz.GetComponent<PlayerVitalsController>() as PlayerVitalsController;
+            if (pvc == null)
+            {
+                Debug.LogWarning("ToxicGooDrip droplet was unable to locate the PlayerVitalsController. This may cause problems.");
+            }
         }
 
         animator = GetComponent<Animator>();

@@ -42,6 +42,7 @@ public class GameController : MonoBehaviour
     }
     #endregion
 
+
     void Awake()
     {
         if (!instance)
@@ -129,5 +130,10 @@ public class GameController : MonoBehaviour
         PreWin(this, new EventArgs());
         Application.LoadLevel(NextLevel);
         PostWin(this, new EventArgs());
+    }
+
+    public static bool IsValidGame()
+    {
+        return (Instance() != null && Instance().Boltz != null);
     }
 }

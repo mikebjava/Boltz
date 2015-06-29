@@ -28,6 +28,7 @@ public class PlayerVisualController : MonoBehaviour
     {
         vitals = gameObject.GetComponent<PlayerVitalsController>() as PlayerVitalsController;
         vitals.Damaged += OnPlayerDamaged;
+        vitals.Death += OnPlayerDeath;
 
         if (Camera.main != null)
         {
@@ -47,6 +48,11 @@ public class PlayerVisualController : MonoBehaviour
         {
             Debug.LogWarning("PlayerVisualController was unable to find the main camera. This may cause problems.");
         }
+    }
+
+    private void OnPlayerDeath(object sender, DeathEventArgs e)
+    {
+        
     }
 
     void Update()
