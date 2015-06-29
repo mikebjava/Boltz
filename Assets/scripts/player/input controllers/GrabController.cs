@@ -43,7 +43,7 @@ public class GrabController : MonoBehaviour
         IsGrabbing = true;
         this.prevMass = rb.mass;
         this.prevFixedAngle = rb.fixedAngle;
-        rb.mass = 0.001f;
+        rb.mass = 0.1f;
         rb.fixedAngle = true;
         this.grabbedObject = rb.gameObject;
     }
